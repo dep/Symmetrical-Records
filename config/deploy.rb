@@ -20,6 +20,6 @@ role :db, domain, :primary => true
 
 namespace :deploy do
   task :restart do
-    run "touch #{current_path}/tmp/restart.txt"
+    run "touch /home/#{user}/#{domain}/tmp/restart.txt"
   end
 end
