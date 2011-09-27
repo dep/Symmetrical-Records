@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>symmetrical records</title>
+  <%= javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" %>
+  <%= javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js" %>
+  <%= javascript_include_tag "application" %>
+  <%= stylesheet_link_tag "application" %>
+  <%= stylesheet_link_tag "http://fonts.googleapis.com/css?family=Dawning+of+a+New+Day|Quattrocento+Sans|Rosario" %>
+
+  <%= csrf_meta_tag %>
+</head>
+<body>
+
+  <div id="wrapper">
+    <%= render "shared/header" %>
+    <%= yield %>
+    <%= render "shared/footer" %>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+body {
+  font-family:"Rosario", sans-serif;
+  font-size:13px;
+  text-align:center;
+}
+h1 a {
+  font-family:"Quattrocento Sans", sans-serif;
+  text-decoration:none;
+  color:#000;
+}
+blockquote {
+  font-family:"Quattrocento Sans", sans-serif;
+  font-size:13px;
+  margin:0 140px 10px;
+  padding:10px 20px;
+  color:#555;
+  border:1px solid #ddd;
+  background:#eee;
+}
+#wrapper {
+  width:960px;
+  margin:0 auto;
+}
+.main_navigation {
+  overflow:hidden;
+  zoom:1;
+  margin:0 auto;
+  padding:0;
+  display:inline-block;
+}
+.main_navigation li {
+  list-style:none;
+  float:left;
+}
+.main_navigation li a {
+  display:block;
+  padding:5px;
+}
+a {
+  color:#3c8cc2;
+}
+.home_img {
+  margin-top:5px;
+}
+#footer {
+  color:#aaa;
+  font-size:12px;
+  margin:80px 100px;
+  border-top:1px solid #eee;
+  text-align:left;
+}
