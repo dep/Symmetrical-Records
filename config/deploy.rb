@@ -5,7 +5,7 @@ default_run_options[:pty] = true
 set :user, 'dpeck01'
 set :domain, 'symmetricalrecords.com'
 set :application, 'Symmetrical-Records'
-set :bundle_cmd, "/home/dpeck/.gems/bin/bundle"
+set :bundle_cmd, "/home/dpeck01/.gems/bin/"
 
 # the rest should be good
 set :repository,  "git@github.com:dep/#{application}.git"
