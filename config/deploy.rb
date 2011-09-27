@@ -1,3 +1,4 @@
+require 'bundler/capistrano'
 default_run_options[:pty] = true
 
 # be sure to change these
