@@ -1560,3 +1560,43 @@ Rendered shared/_header.html.erb (0.7ms)
 Rendered shared/_footer.html.erb (0.4ms)
 Rendered pages/root.html.erb within layouts/application (7.4ms)
 Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-28 18:06:40 -0400
+  Processing by PagesController#root as HTML
+Rendered shared/_header.html.erb (0.6ms)
+Rendered shared/_footer.html.erb (0.3ms)
+Rendered pages/root.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-28 18:14:51 -0400
+  Processing by PagesController#root as HTML
+Rendered shared/_header.html.erb (0.7ms)
+Rendered shared/_footer.html.erb (0.4ms)
+Rendered pages/root.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-28 18:14:51 -0400
+  Processing by PagesController#root as HTML
+Rendered shared/_header.html.erb (0.7ms)
+Rendered shared/_footer.html.erb (0.6ms)
+Rendered pages/root.html.erb within layouts/application (46.8ms)
+Completed 200 OK in 63ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-28 18:26:01 -0400
+  Processing by PagesController#root as HTML
+Rendered shared/_header.html.erb (0.6ms)
+Rendered shared/_footer.html.erb (0.5ms)
+Rendered pages/root.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-28 18:27:27 -0400
+  Processing by PagesController#root as HTML
+Rendered shared/_header.html.erb (0.6ms)
+Rendered shared/_footer.html.erb (0.3ms)
+Rendered pages/root.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms)
