@@ -9,6 +9,13 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'rake', '0.9.2'
 gem 'mysql2', '< 0.3'
 
+group :development, :test do
+  gem 'guard'
+  gem 'rb-fsevent'
+  gem 'growl'
+  gem 'guard-livereload'
+end
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
