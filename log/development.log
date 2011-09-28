@@ -700,3 +700,123 @@ Rendered shared/_header.html.erb (0.4ms)
 Rendered shared/_footer.html.erb (0.4ms)
 Rendered pages/artists.html.erb within layouts/application (5.7ms)
 Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2011-09-28 14:54:39 -0400
+  Processing by PagesController#root as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered shared/_footer.html.erb (0.3ms)
+Rendered pages/root.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/artists" for 127.0.0.1 at 2011-09-28 14:55:13 -0400
+  Processing by PagesController#artists as HTML
+Rendered shared/_header.html.erb (0.5ms)
+Rendered shared/_footer.html.erb (0.4ms)
+Rendered pages/artists.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/artists" for 127.0.0.1 at 2011-09-28 14:59:57 -0400
+  Processing by PagesController#artists as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered shared/_footer.html.erb (0.6ms)
+Rendered pages/artists.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/artists" for 127.0.0.1 at 2011-09-28 15:01:04 -0400
+  Processing by PagesController#artists as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered shared/_footer.html.erb (0.3ms)
+Rendered pages/artists.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/artists" for 127.0.0.1 at 2011-09-28 15:03:21 -0400
+  Processing by PagesController#artists as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered shared/_footer.html.erb (0.4ms)
+Rendered pages/artists.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 50ms (Views: 48.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/artists" for 127.0.0.1 at 2011-09-28 15:04:21 -0400
+  Processing by PagesController#artists as HTML
+Rendered shared/_header.html.erb (1.2ms)
+Rendered shared/_footer.html.erb (0.4ms)
+Rendered pages/artists.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/artists" for 127.0.0.1 at 2011-09-28 15:05:06 -0400
+  Processing by PagesController#artists as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered shared/_footer.html.erb (0.4ms)
+Rendered pages/artists.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2011-09-28 15:05:17 -0400
+  Processing by PagesController#about as HTML
+Rendered shared/_header.html.erb (0.5ms)
+Rendered shared/_footer.html.erb (0.5ms)
+Rendered pages/about.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at 2011-09-28 15:05:21 -0400
+  Processing by PagesController#contact as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered shared/_footer.html.erb (0.3ms)
+Rendered pages/contact.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2011-09-28 15:05:26 -0400
+  Processing by PagesController#about as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered shared/_footer.html.erb (0.4ms)
+Rendered pages/about.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2011-09-28 15:07:03 -0400
+  Processing by PagesController#about as HTML
+Rendered shared/_header.html.erb (0.5ms)
+Rendered shared/_footer.html.erb (0.4ms)
+Rendered pages/about.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2011-09-28 15:11:30 -0400
+  Processing by PagesController#about as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered shared/_footer.html.erb (0.4ms)
+Rendered pages/about.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/artists" for 127.0.0.1 at 2011-09-28 15:11:38 -0400
+  Processing by PagesController#artists as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered shared/_footer.html.erb (0.3ms)
+Rendered pages/artists.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/artists" for 127.0.0.1 at 2011-09-28 15:12:01 -0400
+  Processing by PagesController#artists as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered shared/_footer.html.erb (0.3ms)
+Rendered pages/artists.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/artists" for 127.0.0.1 at 2011-09-28 15:12:17 -0400
+  Processing by PagesController#artists as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered shared/_footer.html.erb (0.3ms)
+Rendered pages/artists.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)

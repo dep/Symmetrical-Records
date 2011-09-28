@@ -1,0 +1,23 @@
+.artist_list {
+  padding: 0; }
+  .artist_list li {
+    overflow: hidden;
+    zoom: 1;
+    list-style: none;
+    clear: both;
+    padding: 20px 0;
+    width: 100%; }
+    .artist_list li .picture, .artist_list li .bio {
+      float: left; }
+    .artist_list li .picture img {
+      margin-right: 20px;
+      border: 1px solid #eeeeee; }
+    .artist_list li .bio {
+      width: 50%;
+      text-align: left; }
+      .artist_list li .bio h3 {
+        margin-top: 0;
+        color: #555555; }
+      .artist_list li .bio p {
+        color: #666666;
+        line-height: 19px; }
