@@ -11,7 +11,10 @@
       float: left; }
     .artist_list li .picture img {
       margin-right: 20px;
-      border: 1px solid #eeeeee; }
+      border: 1px solid #eeeeee;
+      -webkit-box-shadow: 1px 2px 3px #555555;
+      -moz-box-shadow: 1px 2px 3px #555555;
+      box-shadow: 1px 2px 3px #555555; }
     .artist_list li .bio {
       width: 50%;
       text-align: left; }
