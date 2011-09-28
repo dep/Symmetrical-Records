@@ -63,7 +63,11 @@ a {
   color: #3c8cc2; }
 
 .home_img {
-  margin-top: 5px; }
+  margin-top: 5px;
+  border: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none; }
 
 #footer {
   clear: both;
