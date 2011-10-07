@@ -19,8 +19,10 @@
       width: 50%;
       text-align: left; }
       .artist_list li .bio h3 {
-        margin-top: 0;
-        color: #555555; }
+        margin-top: 0; }
+        .artist_list li .bio h3 a {
+          color: #555555;
+          text-decoration: none; }
       .artist_list li .bio p {
         color: #666666;
         line-height: 19px; }
