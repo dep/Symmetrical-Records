@@ -584,45 +584,6 @@ form#login button {
 
     <script type="text/javascript" src="https://staging.stdtestexpress.com/static/j/fancybox/jquery.fancybox.pack.js"></script>
     <script type="text/javascript" src="https://staging.stdtestexpress.com/static/j/standard.js"></script>
-    <script type="text/javascript">
-
-        //Dynamically insert ifbyphone generated number
-        $('.promoNumber').html(_ibp_phone_number);
-
-        function clearDefault(el) {if (el.defaultValue==el.value) el.value = ""}
-
-        $('button[data-href]').click( function(event) {
-            location.href = $(this).attr('data-href');
-        });
-
-        $('#test_panel_tabs_content > :first-child ~ div').each(function() {
-            $(this).css({'display' : 'none', 'visibility' : 'visible'});
-        });
-
-        $('.product_panel ul.head a').click( function(event) {
-            event.preventDefault();
-            var panel = $(this).parents('.product_panel');
-            var tabs = panel.find('ul.head li');
-            var idx = tabs.find('a').index(this);
-            tabs.removeClass('active');
-            tabs.eq(idx).addClass('active');
-            divs = panel.find('.body > div');
-            divs.hide();
-            divs.eq(idx).show();
-        });
-        
-        $('#legacy_nav').bind('touchstart', function(event) {
-            if('legacy_nav' == event.target.id) {
-                $(this).toggleClass('hover');
-            }
-            else
-                $(this).removeClass('hover');
-        });
-        $('body').bind('touchstart', function(event) {
-            $('#legacy_nav').removeClass('hover');
-        });
-        
-    </script>
     <!--[if lte IE 7 ]>
     <script type="text/javascript">
         $(".product_panel ul.head li").wrap("<td />");
