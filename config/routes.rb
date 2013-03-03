@@ -8,6 +8,10 @@ Symmetricalrecords::Application.routes.draw do
   get "pages/:action", to: "pages", action: /[a-z-]+/, as: :page
   root to: "pages#root"
 
+  match "da_pacem" => "artists#da_pacem", :as => "da_pacem"
+  match "thenightlights" => "artists#thenightlights", :as => "thenightlights"
+  match "dep" => "artists#dep", :as => "dep"
+
   # Sample of named route:
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
   # This route can be invoked with purchase_url(:id => product.id)

@@ -1,0 +1,72 @@
+#artist {
+  clear:both;
+  text-align:left;
+  margin-top:30px;
+}
+.artist_pic {
+  float:right;
+  margin-left:20px;
+}
+.fb-like {
+  width:85px;
+}
+.fb-like iframe {
+  width:85px !important;
+}
+h1 {
+  margin:0 0 10px;
+  color:#555;
+}
+h2 {
+  color:#aaa;
+  margin:0 0 10px;
+}
+a {
+  color:#5373FF;
+  text-decoration:none;
+  font-size:12px;
+  display:inline-block;
+}
+.twitter-follow-button {
+  margin:10px 0;
+}
+.fb-like {
+  display:block !important;
+  margin-bottom:20px;
+}
+.footer {
+  text-align:center;
+  font-size:11px;
+  color:#aaa;
+  margin:10px 0;
+}
+.footer a {
+  font-size:11px;
+  color:#999;
+  font-weight:bold;
+}
+.social_links a {
+  text-indent:-9999em;
+  width:30px;
+  height:30px;
+  margin:0 5px;
+}
+.social_links .itunes {
+  background:url(/images/itunes_icon.png) top left no-repeat;
+}
+.social_links .soundcloud {
+  background:url(/images/soundcloud_icon.png) top left no-repeat;
+}
+.social_links .spotify {
+  background:url(/images/spotify_icon.png) top left no-repeat;
+}
+.social_links .bandcamp {
+  background:url(/images/bandcamp_icon.png) top left no-repeat;
+}
+.social_links .facebook_icon {
+  background:url(/images/facebook_icon.png) top left no-repeat;
+}
+.bandpic {
+  position:absolute;
+  left:-9999px;
+}
