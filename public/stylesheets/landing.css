@@ -66,6 +66,9 @@ a {
 .social_links .facebook_icon {
   background:url(/images/facebook_icon.png) top left no-repeat;
 }
+.social_links .tumblr {
+  background:url(/images/tumblr_icon.png) top left no-repeat;
+}
 .bandpic {
   position:absolute;
   left:-9999px;
