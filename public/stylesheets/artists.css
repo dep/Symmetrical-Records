@@ -1,12 +1,12 @@
 .artist_list {
   padding: 0; }
   .artist_list li {
-    overflow: hidden;
-    zoom: 1;
+    float: left;
     list-style: none;
     clear: both;
     padding: 20px 0;
-    width: 100%; }
+    width: 100%;
+    overflow: hidden; }
     .artist_list li .picture, .artist_list li .bio {
       float: left; }
     .artist_list li .picture img {

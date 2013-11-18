@@ -83,3 +83,13 @@ a {
 .huge {
   font-size: 340px;
   color: #eeeeee; }
+
+.callout {
+  border: 1px solid #dddddd;
+  background: #eeeeee;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px 0;
+  width: 350px; }
+  .callout h3 {
+    margin: 0 0 10px; }
