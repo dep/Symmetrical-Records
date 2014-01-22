@@ -6,6 +6,7 @@
 .artist_pic {
   float:right;
   margin-left:20px;
+  margin-bottom:40px;
 }
 .fb-like {
   width:85px;
@@ -24,7 +25,6 @@ h2 {
 a {
   color:#5373FF;
   text-decoration:none;
-  font-size:12px;
   display:inline-block;
 }
 .twitter-follow-button {
@@ -36,12 +36,10 @@ a {
 }
 .footer {
   text-align:center;
-  font-size:11px;
   color:#aaa;
   margin:10px 0;
 }
 .footer a {
-  font-size:11px;
   color:#999;
   font-weight:bold;
 }

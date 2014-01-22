@@ -14,6 +14,7 @@ Symmetricalrecords::Application.routes.draw do
   match "da-pacem" => "artists#da_pacem", :as => "da_pacem"
   match "ben-steed" => "artists#ben_steed", :as => "ben_steed"
   match "gimu" => "artists#gimu", :as => "gimu"
+  match "lucho-ripley" => "artists#lucho", :as => "lucho"
 
   # Sample of named route:
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
